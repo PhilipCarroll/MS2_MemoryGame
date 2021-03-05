@@ -25,24 +25,23 @@ This game is designed to be for kids first and foremost but I hope to make it ap
 ------This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ####Design Elements
-*Font -
-*Icons  -
-*Palette -
-*Style -
-*Images -
-*Audio -
+* Font -
+* Icons  -
+* Palette/Colours -
+* Style -
+* Images -
+* Audio -
 
 ## Features
-Flip Counter
-Toggle Light/Dark mode. OR Day/Night mode. 
-Reset game Button.
-Game Over and Game Complete animation overlay.
-Contact Dev modal pop up.
-Link to Github repo.
+
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Flip Counter
+- Toggle Light/Dark mode. OR Day/Night mode. Chnages background, music and card back design for new experience.
+- New Game Button.
+- Game Over and Game Complete animation overlay.
+- Contact Dev modal pop up.
+- Link to Github repo.
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
@@ -97,7 +96,18 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+The photos used in this site were obtained from Pixabay.com entirely. I have credited each image below.
+- Robin. https://pixabay.com/photos/robin-bird-branch-perched-animal-6010864/
+- Blue Tit. https://pixabay.com/photos/blue-tit-bird-wood-branch-perched-5985287/
+- Kingfisher. https://pixabay.com/photos/kingfisher-bird-animal-wildlife-983944/
+- Swallow. https://pixabay.com/photos/bird-swallow-if-not-for-the-glitches-2252045/
+- Chaffinch. https://pixabay.com/photos/chaffinch-finch-bird-nature-1420407/
+- Goldfinch. https://pixabay.com/photos/goldfinch-bird-nature-beak-wings-4232130/
+- Bullfinch. https://pixabay.com/photos/bullfinch-gimpel-bird-nature-4024106/
+- Sparrow. https://pixabay.com/photos/animal-bird-sparrow-sperling-3434123/
+- Bakcground in Darkmode. https://pixabay.com/photos/tree-evening-sky-birds-star-mood-4088199/
+-Background in Lightmode. https://pixabay.com/photos/tree-landscape-nature-bare-tree-164915/
+-Card back image. https://pixabay.com/photos/eggs-easter-bowl-spring-table-4916430/
 
 ### Acknowledgements
 
