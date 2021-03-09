@@ -39,8 +39,11 @@ This game is designed to be for kids first and foremost but I hope to make it ap
 - Flip Counter
 - Toggle Light/Dark mode. OR Day/Night mode. Chnages background, music and card back design for new experience.
 - New Game Button.
+<<<<<<< HEAD
 - How to Play Pop up.
 - Sound On/Off toggle.
+=======
+>>>>>>> b4b899215727f5356fd8ca0e7f0e8e5e5b18c500
 - Game Over and Game Complete animation overlay.
 - Contact Dev modal pop up.
 - Link to Github repo.
@@ -111,11 +114,14 @@ The photos used in this site were obtained from Pixabay.com entirely. I have cre
 -Background in Lightmode. https://pixabay.com/photos/tree-landscape-nature-bare-tree-164915/
 -Card back image. https://pixabay.com/photos/eggs-easter-bowl-spring-table-4916430/
 
+<<<<<<< HEAD
 I sound used for this game was downloaded from [freesound.com](https://freesound.org/) and I have credited each below.
 - Card flip. https://freesound.org/people/egomassive/sounds/536764/
 - Correct Match. https://freesound.org/people/LittleRainySeasons/sounds/335908/
 - No Match. https://freesound.org/people/f4ngy/sounds/240776/
 
+=======
+>>>>>>> b4b899215727f5356fd8ca0e7f0e8e5e5b18c500
 ### Acknowledgements
 
 - I received inspiration for this project from X
