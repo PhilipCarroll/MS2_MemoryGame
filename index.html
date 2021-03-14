@@ -15,7 +15,114 @@
 </head>
 
 <body>
-<div>Bananas</div>
+    <div>
+
+        <!--PAGE HEADER-->
+
+        <h1>Hatch and Match!</h1>
+        <h2>Find all the birds!</h2>
+        
+
+        <!--GAME INFORMATION ROW-->
+
+        <div class="row">
+
+            <!--FLIP COUNTER-->
+
+            <div class="col-4">
+                <span id="flip_counter">Flips - </span>
+            </div>
+
+            <!--HOW TO PLAY MODAL POP-UP-->
+
+            <div class="col-4">
+
+                <!-- BUTTON TRIGGER MODAL - BOOTSTRAP-->
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    <span>How to Play</span>
+                </button>
+
+                <!-- MODAL -->
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Hatch and Match!</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>The aim of this game is to uncover all the pairs of matching birds.</p>
+                                <p>First choose any card. Then choose a second to see if you can find a matching bird!
+                                </p>
+                                <p>If the cards do not match they will be turned face dowen again.</p>
+                                <p>Use your memory to remember where the birds are so you can finish the game in the
+                                    least number of card flips possible!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--NEW GAME BUTTON-->
+            <div>
+                <button type="button">
+                    <span>New Game</span>
+                </button>
+            </div>
+        </div>
+
+        <!--GAME GRID-->
+
+        <div class="container game_grid">
+            <div class="row">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+            <div class="row">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+            <div class="row">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+            <div class="row">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+        </div>
+
+        <!--GAME CONTROLS-->
+
+        <div class="row">
+            <div class="col-6">
+                <span id="day_night_toggle">Day/night Mode 
+                    <i>ADD FONT AWESOME ICON TO CHANGE WITH TOGGLE</i>
+                </span>
+            </div>
+            <div class="col-6">
+                <span id="sound_toggle">Sound Effects 
+                    <i>ADD FONT AWESOME ICON TO CHANGE WITH TOGGLE</i>
+                </span>
+            </div>
+        </div>
+
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
