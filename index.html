@@ -8,7 +8,7 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
     <title>Memory Card Game - Hatch and Match</title>
@@ -19,9 +19,12 @@
 
         <!--PAGE HEADER-->
 
-        <h1>Hatch and Match!</h1>
-        <h2>Find all the birds!</h2>
-        
+        <div class="row header_container">
+            <div class="header">
+                <h1>Hatch and Match!</h1>
+                <h2>Find all the birds!</h2>
+            </div>
+        </div>
 
         <!--GAME INFORMATION ROW-->
 
@@ -29,7 +32,7 @@
 
             <!--FLIP COUNTER-->
 
-            <div class="col-4">
+            <div class="col-4 ">
                 <span id="flip_counter">Flips - </span>
             </div>
 
@@ -39,7 +42,7 @@
 
                 <!-- BUTTON TRIGGER MODAL - BOOTSTRAP-->
 
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                <button type="button" class="hh" data-toggle="modal" data-target="#exampleModal">
                     <span>How to Play</span>
                 </button>
 
@@ -111,12 +114,12 @@
 
         <div class="row">
             <div class="col-6">
-                <span id="day_night_toggle">Day/night Mode 
+                <span id="day_night_toggle">Day/night Mode
                     <i>ADD FONT AWESOME ICON TO CHANGE WITH TOGGLE</i>
                 </span>
             </div>
             <div class="col-6">
-                <span id="sound_toggle">Sound Effects 
+                <span id="sound_toggle">Sound Effects
                     <i>ADD FONT AWESOME ICON TO CHANGE WITH TOGGLE</i>
                 </span>
             </div>

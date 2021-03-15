@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: url("/assets/images/LightTree.jpg") no-repeat center center fixed rgba(0, 0, 0, 0.2); 
+  background-size: cover;
+}
+
+
+/*  PAGE HEADER */
+
+.header_container {
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    background: rgba(218, 223, 225, 0.8);
+    width: 70%;
+    margin: auto;
+    color: #ff5d8f;
+    border-radius: 20px;
+}
+
+.header h1 {
+    font-size: 32px;
+    padding: 8px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.header h2 {
+    font-size: 20px;
+    padding: 8px;
+    margin: 0;
+}
+
+/* GAME INFORMATION ROW */
+
+
+
