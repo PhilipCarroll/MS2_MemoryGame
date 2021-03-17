@@ -41,5 +41,53 @@ body {
 
 /* GAME INFORMATION ROW */
 
+.game-info {
+    text-align: center;
+    background: linear-gradient(90deg, #ff5d8f, #ff1d92);
+    display: inline;
+    margin: auto;
+    height: 40px;
+    width: 33%;
+    justify-content: center;
+    color: rgba(218, 223, 225, 0.8);
+    border-radius: 10px;
+}
 
+.button-style {
+    border: none;
+    cursor: pointer;
+}
+
+/* GAME GRID */
+
+.game-container {
+    width: 100%;
+    max-width: 768px;
+    margin: 16px 0px;
+}
+
+.game-container .row {
+    display: block;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* GAME CONTROLS */
+
+.toggle-button {
+    text-align: center;
+    background: linear-gradient(90deg, #ff5d8f, #ff1d92);
+    display: inline;
+    height: 40px;
+    justify-content: center;
+    color: rgba(218, 223, 225, 0.8);
+    border-radius: 10px;
+}
 

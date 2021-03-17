@@ -28,22 +28,22 @@
 
         <!--GAME INFORMATION ROW-->
 
-        <div class="row">
+        <div class="row no-gutters">
 
             <!--FLIP COUNTER-->
 
-            <div class="col-4 ">
-                <span id="flip_counter">Flips - </span>
+            <div class="flip_counter game-info">
+                <span>Flips - </span>
             </div>
 
             <!--HOW TO PLAY MODAL POP-UP-->
 
-            <div class="col-4">
+            <div class="game-info">
 
                 <!-- BUTTON TRIGGER MODAL - BOOTSTRAP-->
 
-                <button type="button" class="hh" data-toggle="modal" data-target="#exampleModal">
-                    <span>How to Play</span>
+                <button type="button button-style" data-toggle="modal" data-target="#exampleModal">
+                    <span>How to Play <i class="fas fa-lightbulb"></i></span>
                 </button>
 
                 <!-- MODAL -->
@@ -67,42 +67,42 @@
                                     least number of card flips possible!</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Let's Play!</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--NEW GAME BUTTON-->
-            <div>
+            <div class="game-info button-style">
                 <button type="button">
-                    <span>New Game</span>
+                    <span>New Game <i class="fas fa-redo-alt"></i></span>
                 </button>
             </div>
         </div>
 
         <!--GAME GRID-->
 
-        <div class="container game_grid">
-            <div class="row">
+        <div class="game-container">
+            <div class="row card-row">
                 <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
             </div>
-            <div class="row">
+            <div class="row card-row">
                 <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
             </div>
-            <div class="row">
+            <div class="row card-row">
                 <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
             </div>
-            <div class="row">
+            <div class="row card-row">
                 <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
@@ -113,14 +113,12 @@
         <!--GAME CONTROLS-->
 
         <div class="row">
-            <div class="col-6">
-                <span id="day_night_toggle">Day/night Mode
-                    <i>ADD FONT AWESOME ICON TO CHANGE WITH TOGGLE</i>
+            <div class="col-6 toggle-button">
+                <span id="day_night_toggle">Day/Night <i class="fas fa-cloud-sun"></i>
                 </span>
             </div>
-            <div class="col-6">
-                <span id="sound_toggle">Sound Effects
-                    <i>ADD FONT AWESOME ICON TO CHANGE WITH TOGGLE</i>
+            <div class="col-6 toggle-button">
+                <span id="sound_toggle">Sound Effects <i class="fas fa-volume-up"></i>
                 </span>
             </div>
         </div>
