@@ -53,6 +53,11 @@ body {
     border-radius: 10px;
 }
 
+/* GAME CONTROLS STYLES - top and bottom */
+
+
+
+
 .button-style {
     border: none;
     cursor: pointer;
@@ -61,13 +66,6 @@ body {
 /* GAME GRID */
 
 .game-container {
-    width: 100%;
-    max-width: 768px;
-    margin: 16px 0px;
-}
-
-.game-container .row {
-    display: block;
     text-align: center;
 }
 
@@ -75,9 +73,79 @@ body {
     display: inline-block;
     height: 100px;
     width: 100px;
-    margin: 5px;
-    text-align: center;
-    background: url();
+    margin: 3px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 0px 2px #ff5d8f;
+    box-sizing: border-box;
+}
+
+/* CARD FACES */
+
+.robin {
+    background-image: url(/assets/images/RobinSquare.jpg);
+    background-size: contain;
+    max-width:100%;
+    max-height:100%;
+}
+
+.bluetit {
+    background-image: url(/assets/images/BluetitSquare.jpg);
+    background-size: contain;
+    max-width:100%;
+    max-height:100%;
+}
+
+.bullfinch {
+    background-image: url(/assets/images/BullfinchSquare.jpg);
+    background-size: contain;
+    max-width:100%;
+    max-height:100%;
+}
+
+.chaffinch {
+    background-image: url(/assets/images/ChaffinchSquare.jpg);
+    background-size: contain;
+    max-width:100%;
+    max-height:100%;
+}
+
+.goldfinch {
+    background-image: url(/assets/images/GoldfinchSquare.jpg);
+    background-size: contain;
+    max-width:100%;
+    max-height:100%;
+}
+
+.kingfisher {
+    background-image: url(/assets/images/KingfisherSquare.jpg);
+    background-size: contain;
+    max-width:100%;
+    max-height:100%;
+}
+
+.sparrow {
+    background-image: url(/assets/images/SparrowsSquare.jpg);
+    background-size: contain;
+    max-width:100%;
+    max-height:100%;
+}
+
+.swallow {
+    background-image: url(/assets/images/SwallowSquare.jpg);
+    background-size: contain;
+    max-width:100%;
+    max-height:100%;
+}
+
+.card-hidden {
+    background-image: url(/assets/images/Egg_Card.jpg);
+    background-size: contain;
+    max-width:100%;
+    max-height:100%;
 }
 
 /* GAME CONTROLS */
