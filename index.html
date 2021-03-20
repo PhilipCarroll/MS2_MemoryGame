@@ -19,7 +19,7 @@
 
         <!--PAGE HEADER-->
 
-        <div class="row header_container">
+        <div class="row header-container no-gutters">
             <div class="header">
                 <h1>Hatch and Match!</h1>
                 <h2>Find all the birds!</h2>
@@ -31,8 +31,8 @@
         <div class="row no-gutters game-controls justify-content-center">
 
             <!--FLIP COUNTER-->
-
-            <div class="flip_counter game-info">
+            
+            <div class="flip-counter game-info">
                 <span>Flips - </span>
             </div>
 
@@ -42,7 +42,7 @@
 
                 <!-- BUTTON TRIGGER MODAL - BOOTSTRAP-->
 
-                <button type="button button-style" data-toggle="modal" data-target="#exampleModal">
+                <button type="button" class="button-style" data-toggle="modal" data-target="#exampleModal">
                     <span>How to Play <i class="fas fa-lightbulb"></i></span>
                 </button>
 
@@ -67,15 +67,16 @@
                                     least number of card flips possible!</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Let's Play!</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Let's
+                                    Play!</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--NEW GAME BUTTON-->
-            <div class="game-info button-style">
-                <button type="button">
+            <div class="game-info">
+                <button type="button" class="button-style">
                     <span>New Game <i class="fas fa-redo-alt"></i></span>
                 </button>
             </div>
@@ -112,7 +113,7 @@
 
         <!--GAME CONTROLS-->
 
-        <div class="row game-controls justify-content-center">
+        <div class="row game-controls no-gutters justify-content-center">
             <div class="col-6 toggle-button">
                 <span id="day_night_toggle">Day/Night <i class="fas fa-cloud-sun"></i>
                 </span>

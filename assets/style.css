@@ -13,7 +13,7 @@ body {
 
 /*  PAGE HEADER */
 
-.header_container {
+.header-container {
     padding: 10px;
 }
 
@@ -49,18 +49,22 @@ body {
     height: 40px;
     width: 33%;
     justify-content: center;
-    color: rgba(218, 223, 225, 0.8);
+    color: rgba(218, 223, 225, 0.9);
     border-radius: 10px;
 }
 
 /* GAME CONTROLS STYLES - top and bottom */
 
-
-
-
 .button-style {
-    border: none;
-    cursor: pointer;
+    outline: none;
+    border: 0px; 
+    box-sizing: none; 
+    background-color: transparent; 
+    color: rgba(218, 223, 225, 0.9);
+}
+
+.button-style, .flip-counter, .toggle-button {
+    padding-top: 8px;
 }
 
 /* GAME GRID */
@@ -79,7 +83,7 @@ body {
 }
 
 .card:hover {
-    box-shadow: inset 0px 0px 0px 2px #ff5d8f;
+    box-shadow: inset 0px 0px 0px 3px #ff96b7;
     box-sizing: border-box;
 }
 
@@ -156,7 +160,7 @@ body {
     display: inline;
     height: 40px;
     justify-content: center;
-    color: rgba(218, 223, 225, 0.8);
+    color: rgba(218, 223, 225, 0.9);
     border-radius: 10px;
 }
 
