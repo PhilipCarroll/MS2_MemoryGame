@@ -63,7 +63,7 @@ body {
     color: rgba(218, 223, 225, 0.9);
 }
 
-.button-style, .flip-counter, .toggle-button {
+.button-style, #flip-counter, .toggle-button {
     padding-top: 8px;
 }
 
